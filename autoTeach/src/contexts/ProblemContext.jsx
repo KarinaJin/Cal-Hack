@@ -24,7 +24,6 @@ export const ProblemProvider = ({ children }) => {
 
   const addProblem = (problem) => {
     createProblem(problem);
-    // setProblems([...problems, problem]);
   };
 
   return (
