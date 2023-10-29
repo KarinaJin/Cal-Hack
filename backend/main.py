@@ -25,9 +25,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-API_KEY = "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"
+API_KEY = ""
 
-together.api_key = "5447e04afe0692f4d110f25f8e24f261d924664e871ffa782cfb788af010c14e"
+together.api_key = ""
 
 feedback_prompt = '''
     Grade the student's answer:
